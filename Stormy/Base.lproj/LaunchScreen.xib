@@ -10,25 +10,60 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sunny" translatesAutoresizingMaskIntoConstraints="NO" id="w2o-dm-lvI">
-                    <rect key="frame" x="120" y="120" width="240" height="240"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KOz-Au-sej">
+                    <rect key="frame" x="391" y="372" width="97" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="240" id="8fv-8E-JrU"/>
-                        <constraint firstAttribute="height" constant="240" id="mnM-Sp-h8n"/>
+                        <constraint firstAttribute="width" constant="97" id="IEm-NM-r7B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Fleeting" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gkh-EV-Nyy">
+                    <rect key="frame" x="192" y="288" width="97" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="97" id="aIt-Qt-EfP"/>
+                    </constraints>
+                    <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Turner_Fighting Temeraire_Sunset" translatesAutoresizingMaskIntoConstraints="NO" id="ZaC-iq-lPL">
+                    <rect key="frame" x="96" y="59" width="288" height="288"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Turner_Fighting Temeraire" translatesAutoresizingMaskIntoConstraints="NO" id="w2o-dm-lvI">
+                    <rect key="frame" x="64" y="28" width="366" height="358"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="288" id="bjP-pL-v2K"/>
                     </constraints>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.94117647059999998" green="0.93725490199999995" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="w2o-dm-lvI" secondAttribute="centerY" id="2Or-yf-uAP"/>
-                <constraint firstAttribute="centerX" secondItem="w2o-dm-lvI" secondAttribute="centerX" id="Uqd-lG-bI2"/>
+                <constraint firstItem="ZaC-iq-lPL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="59" id="03L-Zj-kim"/>
+                <constraint firstItem="gkh-EV-Nyy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6ia-0Z-bkZ"/>
+                <constraint firstItem="gkh-EV-Nyy" firstAttribute="centerX" secondItem="ZaC-iq-lPL" secondAttribute="centerX" id="QCN-ld-yDr"/>
+                <constraint firstAttribute="bottom" secondItem="gkh-EV-Nyy" secondAttribute="bottom" constant="162" id="Wv5-TO-v7Z"/>
+                <constraint firstAttribute="bottom" secondItem="KOz-Au-sej" secondAttribute="bottom" constant="78" id="XmB-bi-UQt"/>
+                <constraint firstItem="w2o-dm-lvI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="76" id="b8M-0S-eVI"/>
+                <constraint firstItem="ZaC-iq-lPL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="96" id="lHR-FJ-ZzX"/>
+                <constraint firstItem="gkh-EV-Nyy" firstAttribute="top" secondItem="ZaC-iq-lPL" secondAttribute="bottom" constant="36" id="pRM-50-47U"/>
+                <constraint firstAttribute="trailing" secondItem="KOz-Au-sej" secondAttribute="trailing" constant="-8" id="r2v-al-qRf"/>
+                <constraint firstItem="w2o-dm-lvI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="91" id="sye-tW-amC"/>
+                <constraint firstItem="gkh-EV-Nyy" firstAttribute="top" secondItem="w2o-dm-lvI" secondAttribute="bottom" constant="35" id="yYy-jw-kek"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="ZaC-iq-lPL"/>
+                    <exclude reference="w2o-dm-lvI"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
     <resources>
-        <image name="Sunny" width="810" height="806"/>
+        <image name="Turner_Fighting Temeraire" width="1498" height="1116"/>
+        <image name="Turner_Fighting Temeraire_Sunset" width="529" height="529"/>
     </resources>
 </document>

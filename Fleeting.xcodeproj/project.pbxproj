@@ -10,10 +10,10 @@
 		14B114081A5338C8007A397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B114071A5338C8007A397E /* AppDelegate.swift */; };
 		14B1140A1A5338C8007A397E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B114091A5338C8007A397E /* ViewController.swift */; };
 		14B1140D1A5338C8007A397E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B1140B1A5338C8007A397E /* Main.storyboard */; };
+		14B1140F1A5338C8007A397E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B1140E1A5338C8007A397E /* Images.xcassets */; };
 		14B114121A5338C8007A397E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B114101A5338C8007A397E /* LaunchScreen.xib */; };
-		14B1141E1A5338C8007A397E /* FleetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1141D1A5338C8007A397E /* FleetingTests.swift */; };
+		14B1141E1A5338C8007A397E /* StormyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1141D1A5338C8007A397E /* StormyTests.swift */; };
 		14B114281A5367D7007A397E /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B114271A5367D7007A397E /* Current.swift */; };
-		14D7B8931A768ED100225CC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7B8921A768ED100225CC3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +32,12 @@
 		14B114071A5338C8007A397E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14B114091A5338C8007A397E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14B1140C1A5338C8007A397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B1140E1A5338C8007A397E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14B114111A5338C8007A397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		14B114171A5338C8007A397E /* Always AridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Always AridTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B1141C1A5338C8007A397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14B1141D1A5338C8007A397E /* FleetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetingTests.swift; sourceTree = "<group>"; };
+		14B1141D1A5338C8007A397E /* StormyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyTests.swift; sourceTree = "<group>"; };
 		14B114271A5367D7007A397E /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
-		14D7B8921A768ED100225CC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		14B113F91A5338C8007A397E = {
 			isa = PBXGroup;
 			children = (
-				14B114041A5338C8007A397E /* Fleeting */,
-				14B1141A1A5338C8007A397E /* StormyTests */,
+				14B114041A5338C8007A397E /* Always Arid */,
+				14B1141A1A5338C8007A397E /* AlwaysAridTests */,
 				14B114031A5338C8007A397E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,18 +76,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14B114041A5338C8007A397E /* Fleeting */ = {
+		14B114041A5338C8007A397E /* Always Arid */ = {
 			isa = PBXGroup;
 			children = (
 				14B114071A5338C8007A397E /* AppDelegate.swift */,
 				14B114091A5338C8007A397E /* ViewController.swift */,
 				14B114271A5367D7007A397E /* Current.swift */,
 				14B1140B1A5338C8007A397E /* Main.storyboard */,
-				14D7B8921A768ED100225CC3 /* Images.xcassets */,
+				14B1140E1A5338C8007A397E /* Images.xcassets */,
 				14B114101A5338C8007A397E /* LaunchScreen.xib */,
 				14B114051A5338C8007A397E /* Supporting Files */,
 			);
-			name = Fleeting;
+			name = "Always Arid";
 			path = Stormy;
 			sourceTree = "<group>";
 		};
@@ -99,12 +99,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		14B1141A1A5338C8007A397E /* StormyTests */ = {
+		14B1141A1A5338C8007A397E /* AlwaysAridTests */ = {
 			isa = PBXGroup;
 			children = (
-				14B1141D1A5338C8007A397E /* FleetingTests.swift */,
+				14B1141D1A5338C8007A397E /* StormyTests.swift */,
 				14B1141B1A5338C8007A397E /* Supporting Files */,
 			);
+			name = AlwaysAridTests;
 			path = StormyTests;
 			sourceTree = "<group>";
 		};
@@ -172,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14B113FD1A5338C8007A397E /* Build configuration list for PBXProject "Stormy" */;
+			buildConfigurationList = 14B113FD1A5338C8007A397E /* Build configuration list for PBXProject "Fleeting" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -196,9 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D7B8931A768ED100225CC3 /* Images.xcassets in Resources */,
 				14B1140D1A5338C8007A397E /* Main.storyboard in Resources */,
 				14B114121A5338C8007A397E /* LaunchScreen.xib in Resources */,
+				14B1140F1A5338C8007A397E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B1141E1A5338C8007A397E /* FleetingTests.swift in Sources */,
+				14B1141E1A5338C8007A397E /* StormyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14B113FD1A5338C8007A397E /* Build configuration list for PBXProject "Stormy" */ = {
+		14B113FD1A5338C8007A397E /* Build configuration list for PBXProject "Fleeting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14B1141F1A5338C8007A397E /* Debug */,

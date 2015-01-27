@@ -17,7 +17,7 @@
                BlueprintIdentifier = "14B114011A5338C8007A397E"
                BuildableName = "Always Arid.app"
                BlueprintName = "Always Arid"
-               ReferencedContainer = "container:Stormy.xcodeproj">
+               ReferencedContainer = "container:Fleeting.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "14B114161A5338C8007A397E"
                BuildableName = "Always AridTests.xctest"
                BlueprintName = "Always AridTests"
-               ReferencedContainer = "container:Stormy.xcodeproj">
+               ReferencedContainer = "container:Fleeting.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "14B114161A5338C8007A397E"
                BuildableName = "Always AridTests.xctest"
                BlueprintName = "Always AridTests"
-               ReferencedContainer = "container:Stormy.xcodeproj">
+               ReferencedContainer = "container:Fleeting.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,7 +59,7 @@
             BlueprintIdentifier = "14B114011A5338C8007A397E"
             BuildableName = "Always Arid.app"
             BlueprintName = "Always Arid"
-            ReferencedContainer = "container:Stormy.xcodeproj">
+            ReferencedContainer = "container:Fleeting.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "14B114011A5338C8007A397E"
             BuildableName = "Always Arid.app"
             BlueprintName = "Always Arid"
-            ReferencedContainer = "container:Stormy.xcodeproj">
+            ReferencedContainer = "container:Fleeting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,7 +96,7 @@
             BlueprintIdentifier = "14B114011A5338C8007A397E"
             BuildableName = "Always Arid.app"
             BlueprintName = "Always Arid"
-            ReferencedContainer = "container:Stormy.xcodeproj">
+            ReferencedContainer = "container:Fleeting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

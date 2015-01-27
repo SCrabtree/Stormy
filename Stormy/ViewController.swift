@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var refreshButton: UIButton!
     @IBOutlet weak var refreshActivityIndicator: UIActivityIndicatorView!
     
+    @IBOutlet var mainArt: UIView!
     
     
     let apiKey = "d7539a30efd5669aa702bdce4a2e1436"
@@ -26,8 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        refreshActivityIndicator.hidden = true
+
         getCurrentWeatherData()
     }
     
@@ -46,17 +46,9 @@ class ViewController: UIViewController {
                 
                 let currentWeather = Current(weatherDictionary: weatherDictionary)
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                    self.iconView.image = currentWeather.icon!
-                    self.currentTimeLabel.text = "At \(currentWeather.currentTime!) it is"
                     self.temperatureLabel.text = "\(currentWeather.temperature)"
-                    self.humidityLabel.text = "\(currentWeather.humidity)"
                     self.precipitationLabel.text = "\(currentWeather.precipProbability)"
                     self.summaryLabel.text = "\(currentWeather.summary)"
-                    
-                    //Stop refresh animation
-                    self.refreshActivityIndicator.stopAnimating()
-                    self.refreshActivityIndicator.hidden = true
-                    self.refreshButton.hidden = false
                 })
             } else{
                 

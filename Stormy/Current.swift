@@ -48,7 +48,7 @@ struct Current {
         var imageName: String
         
         switch stringIcon {
-            case "clear":
+            case "Clear":
                 imageName = "clear-day"
             case "clear-night":
                 imageName = "clear-night"
